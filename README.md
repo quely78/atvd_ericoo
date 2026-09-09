@@ -4,11 +4,6 @@ Este projeto foi desenvolvido para uma atividade acadêmica com foco em funçõe
 
 ## Funções implementadas
 
-- `is_par(numero)`: verifica se um número é par.
-- `soma_lista(lista)`: calcula a soma dos elementos de uma lista.
-- `inverter_string(texto)`: retorna a string invertida.
-- `maior_valor(lista)`: retorna o maior valor da lista e lança `ValueError` se a lista estiver vazia.
-- `eh_palindromo(texto)`: verifica se uma frase ou palavra é palíndroma, ignorando espaços e diferenças entre maiúsculas/minúsculas.
 
 ## Estrutura do projeto
 
