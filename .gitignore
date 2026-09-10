@@ -1,1 +1,30 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cache e logs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos locais do Python
+*.egg-info/
+.eggs/
+.dist/
+build/
+dist/
 

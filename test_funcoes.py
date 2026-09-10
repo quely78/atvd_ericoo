@@ -15,3 +15,8 @@ def test_dividir_seguro_por_zero():
 def test_porcentagem():
     resultado = porcentagem(200, 10)
     assert resultado == 20
+
+
+def test_media_ponderada():
+    resultado = media_ponderada([7, 8, 9], [2, 3, 5])
+    assert resultado == pytest.approx(8.3)
