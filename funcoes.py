@@ -5,6 +5,6 @@ def dividir_seguro(a, b):
     return a / b
 
 
-def potencia(base, expoente):
-    """Retorna a base elevada ao expoente."""
-    return base ** expoente
+def porcentagem(valor, percentual):
+    """Calcula o percentual de um valor."""
+    return valor * percentual / 100

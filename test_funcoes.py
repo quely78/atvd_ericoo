@@ -12,6 +12,6 @@ def test_dividir_seguro_por_zero():
         dividir_seguro(10, 0)
 
 
-def test_potencia():
-    resultado = potencia(2, 3)
-    assert resultado == 8
+def test_porcentagem():
+    resultado = porcentagem(200, 10)
+    assert resultado == 20
