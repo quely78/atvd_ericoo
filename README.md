@@ -41,3 +41,10 @@ Todas as funções possuem testes automatizados para casos de sucesso e entradas
 ## Resultado esperado
 
 Todos os testes devem passar com sucesso, confirmando que as funções estão funcionando corretamente.
+
+# PARTICIPANTES : Robson 
+Herick 
+João Guilherme 
+Ricardo
+Alice
+Maria Luana
