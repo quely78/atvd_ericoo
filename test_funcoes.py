@@ -44,3 +44,7 @@ def test_fatorial_zero():
 def test_fatorial_negativo():
     with pytest.raises(ValueError):
         fatorial(-3)
+
+def test_potencia():
+    resultado = potencia(4, 4)
+    assert resultado == 256
