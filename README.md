@@ -42,7 +42,8 @@ Todas as funções possuem testes automatizados para casos de sucesso e entradas
 
 Todos os testes devem passar com sucesso, confirmando que as funções estão funcionando corretamente.
 
-# PARTICIPANTES : Robson 
+# PARTICIPANTES :
+Robson 
 Herick 
 João Guilherme 
 Ricardo
