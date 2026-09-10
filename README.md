@@ -4,6 +4,14 @@ Este projeto foi desenvolvido para uma atividade acadêmica com foco em funçõe
 
 ## Funções implementadas
 
+- `dividir_seguro(a, b)`: divide `a` por `b` e lança `ValueError` quando o divisor é zero.
+- `porcentagem(valor, percentual)`: calcula o percentual informado de um valor.
+- `media_ponderada(notas, pesos)`: calcula a média ponderada das notas. As listas devem ter o mesmo tamanho, não podem estar vazias e a soma dos pesos deve ser diferente de zero.
+- `raiz_quadrada(numero)`: calcula a raiz quadrada de um número e lança `ValueError` para números negativos.
+- `fatorial(numero)`: calcula o fatorial de um número inteiro não negativo e lança `ValueError` para números negativos.
+
+Todas as funções possuem testes automatizados para casos de sucesso e entradas inválidas.
+
 
 ## Estrutura do projeto
 
