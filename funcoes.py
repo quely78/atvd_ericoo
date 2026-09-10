@@ -3,3 +3,8 @@ def dividir_seguro(a, b):
     if b == 0:
         raise ValueError("Não é possível dividir por zero")
     return a / b
+
+
+def potencia(base, expoente):
+    """Retorna a base elevada ao expoente."""
+    return base ** expoente

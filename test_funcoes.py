@@ -10,3 +10,8 @@ def test_dividir_seguro():
 def test_dividir_seguro_por_zero():
     with pytest.raises(ValueError):
         dividir_seguro(10, 0)
+
+
+def test_potencia():
+    resultado = potencia(2, 3)
+    assert resultado == 8
