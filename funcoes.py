@@ -39,3 +39,6 @@ def fatorial(numero):
     for i in range(2, numero + 1):
         resultado *= i
     return resultado
+
+def potencia(base, expoente):
+    return base ** expoente
