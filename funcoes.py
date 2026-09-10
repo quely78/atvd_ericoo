@@ -22,4 +22,23 @@ def media_ponderada(notas, pesos):
     if soma_pesos == 0:
         raise ValueError("A soma dos pesos deve ser diferente de zero")
 
-    return sum(nota * peso for nota, peso in zip(notas, pesos)) / soma_pesos
+    return sum(nota * peso for nota, peso in zip(notas, pesos)) / soma_pesosdef raiz_quadrada(numero):
+    """Calcula a raiz quadrada de um número, lançando erro se for negativo."""
+    if numero < 0:
+        raise ValueError("Não é possível calcular raiz quadrada de número negativo")
+    return numero ** 0.5
+
+def raiz_quadrada(numero):
+    """Calcula a raiz quadrada de um número, lançando erro se for negativo."""
+    if numero < 0:
+        raise ValueError("Não é possível calcular raiz quadrada de número negativo")
+    return numero ** 0.5
+
+def fatorial(numero):
+    """Calcula o fatorial de um número inteiro não negativo."""
+    if numero < 0:
+        raise ValueError("Não é possível calcular fatorial de número negativo")
+    resultado = 1
+    for i in range(2, numero + 1):
+        resultado *= i
+    return resultado
